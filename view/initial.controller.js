@@ -1,3 +1,4 @@
+jQuery.sap.require("sc.test.view.Dialog");
 sap.ui.controller("sc.test.view.initial", {
 
     oDialog: null,
