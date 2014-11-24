@@ -38,7 +38,7 @@ sap.ui.core.mvc.Controller.extend("sc.test.view.Dialog", {
 
     onCartDialogCancel:function(oEvent){
         
-        this.close();
+        oEvent.getSource().getParent().getParent().close();
         
     },
     
